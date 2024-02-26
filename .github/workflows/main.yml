@@ -2,12 +2,12 @@ name: Jays test
 
 on: 
   push:
-      branches: [ main ]
-      paths-ignore: [.github/**]
+    branches: [ main ]
+    paths-ignore: [.github/**]
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '12 10 * * 1'
+    - cron: '18 10 * * 1'
   workflow_dispatch:
 
 jobs:
